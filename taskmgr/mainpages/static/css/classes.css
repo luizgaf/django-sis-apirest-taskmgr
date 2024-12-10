@@ -1,0 +1,16 @@
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-collumn{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.self-center{
+    position: relative;
+    align-self: center;
+    justify-self: center;
+}

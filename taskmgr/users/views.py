@@ -43,7 +43,3 @@ def register(request):
 
 
         return HttpResponse(username)
-
-@login_required(login_url="/auth/login/")
-def plataforma(request):   
-        return HttpResponse("plataforma")
