@@ -1,0 +1,28 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager | Create Account</title>
+
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
+    <link rel="stylesheet" href="{% static 'css/classes.css' %}">
+
+</head>
+<body class="center-items">
+    <div class="center-items">
+        <div id="register-group">
+            <h1>Create Account</h1>
+            <form class="center-items wrap-collumn" id="form-group" action="{% url 'register' %}" method="POST">
+                {% csrf_token %}
+                <input type="text" placeholder="Username" name="username">
+                <input type="email" placeholder="Email" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <a href="../login/"><h6>Already have an account? Login!</h6></a>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

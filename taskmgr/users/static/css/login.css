@@ -1,0 +1,86 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* gradient */
+    background: rgba(212,228,239,1);
+    background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(12%, rgba(212,228,239,1)), color-stop(77%, rgba(134,174,204,1)), color-stop(100%, rgba(134,174,204,1)));
+    background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+}
+
+#login-group{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 360px;
+    border-radius: 10px;
+
+    h1{
+        margin: 0px;
+        padding: 15px 0;
+        color: #626262;
+        width: 100%;
+        text-align: center;
+    
+        border-bottom: solid 1px silver;
+    }
+
+}
+#form-group{
+    margin: none;
+    padding-top: 14%;
+    gap: 20px;
+}
+.input-group{
+    h4{
+        font-family: sans-serif;
+        color: #626262;
+        margin: 0 0 5px 15px;
+        font-size: small;
+    }
+    input{
+        padding: 0 20px;
+    
+        border: 0.5px, solid silver;
+        border-radius: 50px;
+        background-color: whitesmoke;
+    
+        width: 180px;
+        height: 36px;
+    }
+    input:focus{
+        outline: #8d8d8d 1px solid;
+        margin: 0px;
+    }
+}
+
+#login-button{
+    cursor: pointer;
+    background-color: #57595B;
+    color: whitesmoke;
+    width: 220px;
+    height: 40px;
+    outline: none;
+    margin: 0px;
+    border: 0px;
+    border-radius: 50px;
+    transition: 0.15s;
+}
+#login-button:hover{
+    background-color: #3d3d3d;
+    scale: 1.02;
+}
+h6{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-smaller;
+}

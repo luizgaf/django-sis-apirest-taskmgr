@@ -1,0 +1,79 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* gradient */
+    background: rgba(212,228,239,1);
+    background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(12%, rgba(212,228,239,1)), color-stop(77%, rgba(134,174,204,1)), color-stop(100%, rgba(134,174,204,1)));
+    background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 12%, rgba(134,174,204,1) 77%, rgba(134,174,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+
+    div{
+        width: 350px;
+    }
+}
+
+#register-group{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 370px;
+    border-radius: 10px;
+
+    h1{
+        color: #57595B;
+        margin: 0px;
+        padding: 20px 0;
+        border-bottom: 1px silver solid;
+        text-align: center;
+    }
+}
+
+#form-group{
+    background-color: whitesmoke;
+    padding-top: 20px;
+    gap: 15px;
+
+    input{
+        width: 230px;
+        height: 40px;
+        padding: 0 20px;
+        border: 0.5px, solid silver;
+        border-radius: 50px;
+        background-color: whitesmoke;
+    }
+    input:focus{
+        outline: #8d8d8d 1px solid;
+    }
+    
+    button{
+        cursor: pointer;
+        background-color: #57595B;
+        color: whitesmoke;
+        width: 220px;
+        height: 40px;
+        outline: none;
+        margin: 0px;
+        border: 0px;
+        border-radius: 50px;
+        transition: 0.15s;
+    }
+    button:hover{
+        background-color: #3d3d3d;
+        scale: 1.02;
+    }
+    a{
+        h6{
+            margin: 0px;
+            font-size: xx-smaller;
+        }
+    }
+}
