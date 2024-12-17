@@ -14,3 +14,16 @@
     align-self: center;
     justify-self: center;
 }
+
+.img-loading{
+    opacity: 0;
+    animation: fadeIn 1.7s ease forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

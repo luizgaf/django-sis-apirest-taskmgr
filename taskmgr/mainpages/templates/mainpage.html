@@ -4,41 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>TaskMGR | The ultimate management tool</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'images/'%}">
 
-    <link rel="stylesheet" href="{% static 'css/classes.css' %}">
-    <link rel="stylesheet" href="{% static 'css/mainpage.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main-page.css' %}">
+    <link rel="stylesheet" href="{% static 'css/class.css' %}">
 </head>
+
 <body>
+
+
+
     <header>
         <div class="center-items" id="site-name">
-            <a href="">Task Manager | Management Tool</a>
+            <a id="site-name-a" class="center-items" href="">
+                <img id="logo-site-name" src="{% static 'images/minitruck.png' %}" alt="">
+                <h2>Task Manager | Management Tool</h2>
+            </a>
         </div>
         <div id="nav-group">
             <a class="center-items" href="/auth/login/"><strong>LOGIN</strong></a>
             <a class="center-items" href=""><strong>SERVICES</strong></a>
         </div>
     </header>
+
+
+
     <main>
         <div class="info-section">
             <div class="img-group center-items">
-                <img src="{% static 'images/trukinhway.jpg' %}" alt="">
+                <img class="img-loading left-img" loading="lazy" src="{% static 'images/trukinhway.jpg' %}" alt="">
             </div>
-            <div class="text-group center-items wrap-collumn">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, qui, porro praesentium, aliquid sapiente culpa odio neque sunt laudantium architecto mollitia dolor? Omnis deleniti ipsam quidem repellat iure esse praesentium!
-                </p>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, doloribus nobis consectetur eum adipisci fugiat distinctio dolorum aliquid cum accusamus, temporibus consequuntur omnis repellendus nemo reiciendis obcaecati. Dignissimos, ab facere!
-                </p>
+            <div class="text-button-group center-items wrap-collumn">
+                <div class="text-group center-items wrap-collumn">
+                    <p>
+                        Managing transportation and inventory has never been easier. Our platform organizes and optimizes every step of your operation, 
+                        from delivery tracking to real-time inventory control. 
+                        Avoid delays, reduce costs, and gain complete visibility over your entire logistics flow.
+                    </p>
+                    <p>
+                        Ensure efficiency and customer satisfaction with tools designed to streamline operations, 
+                        providing the control and insights you need to take your business to the next level.
+                    </p>
+                </div>
+                <div class="button-group">
+                    <button><Strong>See More</Strong></button>
+                </div>
             </div>
-            <div class="button-group">
-                <button>See More</button>
+        </div>
+
+        <div class="info-section">
+            <div class="text-button-group center-items wrap-collumn">
+                <div class="text-group center-items wrap-collumn">
+                    <p>
+                        Streamline your logistics with a platform designed to enhance warehouse and delivery operations.
+                         Track inventory in real-time, reduce storage inefficiencies, and ensure that your products are always on the move without delays.
+                    </p>
+                    <p>
+                        Our tools empower you with accurate insights and seamless processes to improve decision-making.
+                         Gain control of your supply chain and deliver exceptional results that exceed customer expectations.
+                    </p>
+                </div>
+                <div class="button-group">
+                    <button><Strong>See More</Strong></button>
+                </div>
+            </div>
+
+            <div class="img-group center-items">
+                <img class="img-loading right-img" loading="lazy" src="{% static 'images/gerenciando-estoque.jpeg' %}" alt="">
             </div>
         </div>
     </main>
+
+
     <footer class="center-items">
-        <h6>Task Manager all rights reserved</h6>
+        <h6>TaskMGR® - Task Manager all rights reserved</h6>
     </footer>
 </body>
 </html>
